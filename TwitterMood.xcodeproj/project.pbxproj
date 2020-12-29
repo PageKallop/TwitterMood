@@ -15,6 +15,7 @@
 		C0D860E9259BC53500A4A7A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0D860E7259BC53500A4A7A8 /* LaunchScreen.storyboard */; };
 		C0D860F4259BC53500A4A7A8 /* TwitterMoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D860F3259BC53500A4A7A8 /* TwitterMoodTests.swift */; };
 		C0D860FF259BC53500A4A7A8 /* TwitterMoodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D860FE259BC53500A4A7A8 /* TwitterMoodUITests.swift */; };
+		C0D86110259BD45500A4A7A8 /* TweetSentimentClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = C0D8610F259BD45500A4A7A8 /* TweetSentimentClassifier.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		C0D860FA259BC53500A4A7A8 /* TwitterMoodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwitterMoodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0D860FE259BC53500A4A7A8 /* TwitterMoodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterMoodUITests.swift; sourceTree = "<group>"; };
 		C0D86100259BC53500A4A7A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0D8610F259BD45500A4A7A8 /* TweetSentimentClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = TweetSentimentClassifier.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				C0D860DC259BC53400A4A7A8 /* AppDelegate.swift */,
 				C0D860DE259BC53400A4A7A8 /* SceneDelegate.swift */,
 				C0D860E0259BC53400A4A7A8 /* ViewController.swift */,
+				C0D8610F259BD45500A4A7A8 /* TweetSentimentClassifier.mlmodel */,
 				C0D860E2259BC53400A4A7A8 /* Main.storyboard */,
 				C0D860E5259BC53500A4A7A8 /* Assets.xcassets */,
 				C0D860E7259BC53500A4A7A8 /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			files = (
 				C0D860E1259BC53400A4A7A8 /* ViewController.swift in Sources */,
 				C0D860DD259BC53400A4A7A8 /* AppDelegate.swift in Sources */,
+				C0D86110259BD45500A4A7A8 /* TweetSentimentClassifier.mlmodel in Sources */,
 				C0D860DF259BC53400A4A7A8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
